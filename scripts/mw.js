@@ -1,3 +1,6 @@
+/* ================================
+===  BACKGROUND SLIDER        ====
+================================= */
 $.vegas('slideshow', {
   delay:4000,
   backgrounds:[
