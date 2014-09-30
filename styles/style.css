@@ -1,5 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Montserrat);
 
+/* This is our primary font, failing which the fallback webfonts specified above should load */
+@font-face {
+	font-family: 'fp-15626';
+	src: url('/assets/mw-fonts/dyno regular.eot');
+	src: url('/assets/mw-fonts/dyno regular.eot?#iefix') format('embedded-opentype'),
+	url('/assets/mw-fonts/dyno regular.woff') format('woff'),
+	url('/assets/mw-fonts/dyno regular.ttf') format('truetype'),
+	url('/assets/mw-fonts/dyno regular.svg#fp-15626') format('svg');
+}
+
 
 /* Your styles go here */
 html {
@@ -95,7 +105,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1,h2 {
-	font-family: 'Montserrat', 'sans-serif';
+	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -107,16 +117,24 @@ h2 {
 	line-height: 55px;
 }
 h3 {
+	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
 	font-size: 24px;
+	font-weight: 400;
 }
 h4 {
+	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
 	font-size: 18px;
+	font-weight: 400;
 }
 h5 {
+	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
 	font-size: 17px;
+	font-weight: 400;
 }
 h6 {
+	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
 	font-size: 16px;
+	font-weight: 400;
 }
 
 /*---------------------------------------
@@ -146,7 +164,7 @@ h6 {
  	border: none;
  }
  .red-btn {
- 	background: #e96656;
+ 	background: #cb4332;
  }
  .green-btn {
  	background: #20AA73;
@@ -168,7 +186,7 @@ h6 {
  }
  .red-btn:hover {
  	color: #FFF;
- 	background: #cb4332;
+ 	background: #e96656;
  }
  .green-btn:hover {
  	color: #FFF;
@@ -277,26 +295,28 @@ h6 {
 
  /*----  SECTION:  HOME > TOP BAR   ----*/
  .navbar {
- 	background: rgba(255, 255, 255, 0.75);
+ 	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
+ 	background: rgba(255, 255, 255, 0.90);
  	overflow: hidden;
  	border: 0;
  	border-radius: 0 !important;
  	text-align: left;
  	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
  	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+
  }
  #main-nav {
  	position: absolute;
  	width: 100%;
  	z-index: 1000;
- 	min-height: 75px;
+ 	min-height: 85px;
  }
  #main-nav.fixed {
  	position: fixed !important;
  	top: 0;
  }
  .navbar-inverse .navbar-nav>li {
- 	display: inline;
+ 	display: inline-block;
  	margin-right: 20px;
  	margin-top: 20px;
  }
@@ -307,11 +327,23 @@ h6 {
  	color: #404040;
  	padding: 0;
  	line-height: 35px;
+ 	display: inline-block;
  }
+ .navbar-inverse .navbar-collapse {
+ 	border: none;
+ 	border: 0;
+ }
+ .navbar-inverse .navbar-nav {
+		padding-left: 10px;
+		/* line-height: normal; */
+		text-align: center;  
+	}
+
  .navbar-brand {
- 	height: 76px;
+ 	height: 56px; 
  	position: relative;
  	line-height: 45px;
+ 	padding-bottom: 10px;
  }
  .current a {
  	color: #e96656 !important;
@@ -365,6 +397,10 @@ h6 {
  	text-transform: uppercase;
  	font-size: 18px;
  }
+
+.short-text a {
+	text-decoration: none;
+}
 
 /*---------------------------------------
  **   SECTION:  OUR FOCUS             -----

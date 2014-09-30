@@ -1,147 +1,134 @@
-@media (min-width: 992px) and (max-width: 1024px) {
-     .navbar-right {
-        float: none !important;
-        margin: auto;
-        margin-left: 130px;
-    }
-    
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* but we need to fix a few device specific layouts still */
+
+@media (max-width: 320px) {
+	
+	html {
+		font-size: 62.5%;
+	}
+	
+	
+	body {
+		font-size: 1.3rem;
+	}
+	
+	.focus,.works,.about-us,.features, .our-team,.packages,.products .color-overlay,.testimonial,.contact-us {
+		padding-top: 50px;
+	}
+	
+	h1 {
+		font-weight: normal;
+	}
+	
+	h3 {
+		font-size: 1.7rem;
+	}
+	
+	.navbar-inverse .navbar-collapse {
+		border: none;
+		border: 0;
+	}
+
+
+	.intro {
+		margin-top: 50%;
+		line-height: 3.1rem !important;
+		font-size: 2.1rem;
+	}
+
+	.client-list ul li {
+		display: block;
+	}
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    
-    
-    /* TOP BAR ELEMENTS */    
-	.responsive-logo {
-		width: 100%;
-		position: relative;
-		text-align: center;
-		margin-top: 10px;
-		padding-top: 15px;
-	}
-   
-	.responsive-logo a {
-		float: none !important;
+
+
+@media (max-width: 480px) {
+	
+	html {
+		font-size: 70%;
 	}
 
-	.responsive-nav {
-		text-align: center;
-		width: 100%;
-		padding-top: 0;
+	.responsive-logo img {
+		width: 70%; 
 	}
-
-	.responsive-nav li {
-		margin-bottom: 15px;
-		margin-top: 0 !important;
-	}
-     
-     /* HOME */
+	
+	
 	.intro {
-		margin-top: 31%;
+		margin-top: 40%;
 		line-height: 3.438rem !important;
 		font-size: 2.813rem;
 	}
-      
-      /* ABOUT US */
-	.big-intro {
-		text-align: center !important;
+	
+	.focus,.works,.about-us,.features, .our-team,.packages,.products .color-overlay,.testimonial,.contact-us {
+		padding-top: 60px;
+	}
+	.buttons {
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+	
+	.custom-button {
+		padding: 10px 18px;
+	}
+	h1 {
+		font-weight: normal;
+	}
+	
+	h2 {
+		font-size: 6.5vw !important;
+	}
+	
+	h3 {
+		font-size: 1.7rem;
 	}
 
-	.about-us .column {
-		margin-bottom: 40px;
-	}
-
-	.skills {
-		margin-bottom: 78px !important;
-	}
-      
-      /* TEAM */
-	.team-member .profile-pic {
-		width: 128px;
-		height: 128px;
-	}
-
-	.team-member .details {
-		display: none;
-	}
-      /* PURCHASE NOW */
-	.purchase-now {
-		margin: auto;
-		text-align: center !important;
-	}
-
-	.purchase-now h3 {
-		text-align: center;
-		margin-bottom: 20px;
-	}
-
-	.purchase-now .red-btn {
-		float: none;
-	}
-      
-      /* FOOTER */
-	footer {
-		padding-top: 40px;
-	}
-
-	.company-details {
-		padding-top: 0;
-		padding-bottom: 33px;
-	}
-
-	.copyright {
-		width: 100%;
-		padding-top: 33px;
-		padding-bottom: 33px;
+	.other-focus-list ul li {
+		display: block;
+		text-align: left;
+		margin-right: 0;
 	}
 }
-@media (max-width: 1024px) {
-    .features {
-        text-align: center;
-    }
-    
-    .features .feature-icon {
-        float: none;
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-}
+
+
+
 
 
 @media (max-width: 767px) {
- 
 	
 
-    html {
-        font-size: 90%;
-    }
-    
-    .bs-navbar-collapse {
+	html {
+		font-size: 90%;
+	}
+	
+	.bs-navbar-collapse {
 		border: 0;
 	}
 
 	.navbar-inverse .navbar-nav {
 		padding-left: 10px;
-		line-height: normal;
-		text-align: center;
+		/* line-height: normal; */
+		text-align: center;  
 	}
 
 	.navbar-inverse .navbar-nav>li {
 		display: inline-block;
-		margin-bottom: 0;
+		margin-bottom: 0; 
 	}
-    /* HOME */
+	
 	.header {
-		min-height: inherit;
-		padding-bottom: 75px;
+		/* min-height: inherit; */
+		/* padding-bottom: 75px; */
 	}
 
 	.intro {
-	    margin-top: 30%;
+		margin-top: 30%;
 		line-height: 3.438rem !important;
 		font-size: 2.813rem;
 	}
-      
-      /* ABOUT US */
+	
+	
 	.big-intro {
 		text-align: center !important;
 		font-size: 8vw !important;
@@ -154,8 +141,8 @@
 	.skills {
 		margin-bottom: 78px !important;
 	}
-      
-      /* PURCHASE NOW */
+	
+	
 	.purchase-now {
 		margin: auto;
 		text-align: center !important;
@@ -169,8 +156,8 @@
 	.purchase-now .red-btn {
 		float: none;
 	}
-      
-      /* FOOTER */
+	
+	
 	footer {
 		padding-top: 40px;
 	}
@@ -187,87 +174,188 @@
 	}
 }
 
-@media (max-width: 480px) {
- 
 
-/* HOME */
-	html {
-        font-size: 70%;
-    }
-	.responsive-logo img {
-        width: 70%;
-    }
-    
-    #main-nav {
-        min-height: 50px;
-    }
+
+@media (min-width: @screen-sm-min)  and (max-width: @screen-sm-max) {
+	/* (min-width: 768px) and (max-width: 1024px) */
+	.navbar-inverse .navbar-nav {
+		padding-left: 10px;
+		line-height: normal;
+		text-align: center;  
+	}
+
+	.navbar-inverse .navbar-nav>li {
+		display: inline-block;
+		margin-bottom: 0; 
+	}
 	
+
+
+	.bs-navbar-collapse {
+		border: none;
+	}
+
+	#main-nav {
+		/*       min-height: 40px;  */
+	}
+	.navbar-right {
+		float: none !important;
+		margin: auto;
+		margin-left: 130px;
+	} 
+	
+	.responsive-logo {
+		/*	width: 100%;  */
+		position: relative;
+		text-align: center;
+		margin-top: 10px;
+		padding-top: 15px;
+	}
+	
+	.responsive-logo a {
+		float: none !important;
+	}
+
+	.responsive-nav {
+		text-align: center;
+		width: 100%;
+		padding-top: 0; 
+	}
+
+	.responsive-nav li {
+		margin-bottom: 15px;
+		margin-top: 0 !important;
+	}
+	
+
 	.intro {
-		margin-top: 40%;
+		margin-top: 31%;
 		line-height: 3.438rem !important;
 		font-size: 2.813rem;
 	}
-    
-    .focus,.works,.about-us,.features, .our-team,.packages,.products .color-overlay,.testimonial,.contact-us {
-	padding-top: 60px;
-}
-    .buttons {
-	    margin-bottom: 0;
-	    margin-top: 30px;
+	
+	
+	.big-intro {
+		text-align: center !important;
 	}
-     
-    .custom-button {
-        padding: 10px 18px;
-    }
-     h1 {
-        font-weight: normal;
-    }
-    
-	h2 {
-		font-size: 6.5vw !important;
+
+	.about-us .column {
+		margin-bottom: 40px;
+	}
+
+	.skills {
+		margin-bottom: 78px !important;
 	}
 	
-	 h3 {
-        font-size: 1.7rem;
-    }
 
-	.other-focus-list ul li {
-		display: block;
-		text-align: left;
+	.team-member .profile-pic {
+		width: 128px;
+		height: 128px;
+	}
+
+	.team-member .details {
+		display: none;
+	}
+	
+	.purchase-now {
+		margin: auto;
+		text-align: center !important;
+	}
+
+	.purchase-now h3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.purchase-now .red-btn {
+		float: none;
+	}
+	
+	
+	footer {
+		padding-top: 40px;
+	}
+
+	.company-details {
+		padding-top: 0;
+		padding-bottom: 33px;
+	}
+
+	.copyright {
+		width: 100%;
+		padding-top: 33px;
+		padding-bottom: 33px;
+	}
+}
+
+
+@media (max-width: @screen-xs-max) { 
+	.navbar-inverse .navbar-nav {
+		padding-left: 10px;
+		/* line-height: normal; */
+		text-align: center;  
+	}
+
+	.navbar-inverse .navbar-nav>li , .navbar-inverse .navbar-nav>li a{
+		display: inline-block;
+		margin-bottom: 0; 
+	}
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+	.navbar-inverse .navbar-nav {
+		padding-left: 10px;
+		line-height: normal;
+		text-align: center;  
+	}
+
+	.navbar-inverse .navbar-nav>li , .navbar-inverse .navbar-nav>li a{
+		display: inline-block;
+		margin-bottom: 0; 
+	}
+	
+/* (min-width: 992px) and (max-width: 1024px)
+     .navbar-right {
+        float: none !important;
+        margin: auto;
+       margin-left: 130px;
+    }
+    */
+}
+
+
+
+@media (max-width: 1024px) {
+	.navbar-inverse .navbar-nav {
+		padding-left: 10px;
+		/* line-height: normal; */
+		text-align: center;  
+	}
+
+	.navbar-inverse .navbar-nav>li , .navbar-inverse .navbar-nav>li a{
+		display: inline-block;
+		margin-bottom: 0; 
+	}
+	.features {
+		text-align: center;
+	}
+	
+	.features .feature-icon {
+		float: none;
 		margin-right: 0;
+		margin-bottom: 20px;
 	}
 }
 
-@media (max-width: 320px) {
-    
-    html {
-        font-size: 62.5%;
-    }
-    
-    
-    body {
-        font-size: 1.3rem;
-    }
-    
-    .focus,.works,.about-us,.features, .our-team,.packages,.products .color-overlay,.testimonial,.contact-us {
-	padding-top: 50px;
-}
-    
-    h1 {
-        font-weight: normal;
-    }
-    
-    h3 {
-        font-size: 1.7rem;
-    }
-    
-    .intro {
-        margin-top: 50%;
-		line-height: 3.1rem !important;
-		font-size: 2.1rem;
+@media (min-width: @screen-lg-min)  and (max-width: @screen-lg-max)  { 
+	.navbar-inverse .navbar-nav {
+		padding-left: 10px;
+		/* line-height: normal; */
+		text-align: center;  
 	}
 
-	.client-list ul li {
-		display: block;
+	.navbar-inverse .navbar-nav>li, .navbar-inverse .navbar-nav>li a {
+		display: inline-block;
+		margin-bottom: 0; 
 	}
 }
