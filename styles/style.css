@@ -11,7 +11,45 @@
 }
 
 
-/* Your styles go here */
+/********************************************************************
+* Common fixes across browsers and devices
+*******************************************************************/
+body.is-loading * {
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-o-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-o-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			display:none;
+		}
+
+
+/* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
+@-webkit-viewport {
+	width: device-width;
+}
+@-moz-viewport {
+	width: device-width;
+}
+@-ms-viewport {
+	width: device-width;
+}
+@-o-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+
+/********************************************************************
+* HTML5 standard Elements
+*******************************************************************/
 html {
 
 	font-size: 100%;        
@@ -28,7 +66,7 @@ body {
 	overflow-x: hidden !important;
 	margin: auto !important;
 	width: 100%;
-	-webkit-backface-visibility: hidden;
+	/* -webkit-backface-visibility: hidden;   This breaks background images on Chrome 38 */
 }
 
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
