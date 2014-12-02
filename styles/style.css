@@ -276,6 +276,13 @@ h6 {
  	color: #FFFFFF;
  }
 
+a.white-text{
+	text-decoration: underline;
+}
+
+a.white-text:hover {
+	background: white;
+}
 
 
 
