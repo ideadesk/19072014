@@ -57,7 +57,7 @@ html {
 
 body {
 	font-family: 'Lato', sans-serif !important;
-	font-size: 14px;
+	font-size: 16px;
 	color: #808080;
 	font-weight: normal;
 	overflow-x: hidden;
@@ -156,8 +156,9 @@ h2 {
 }
 h3 {
 	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
-	font-size: 24px;
+	font-size: 28px;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 h4 {
 	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
@@ -166,12 +167,12 @@ h4 {
 }
 h5 {
 	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: 400;
 }
 h6 {
 	font-family: 'fp-15626', 'Montserrat', 'sans-serif';
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 }
 
@@ -495,7 +496,7 @@ h6 {
  	font-size: 17px;
  }
  .focus-box p {
- 	font-size: 14px;
+ 	font-size: 16px;
  }
 
  /*----OTHER FOCUSES ----*/
@@ -946,7 +947,7 @@ Mailchimp form
 	margin-bottom: 0;
 }
 .item-add-content p {
-	font-size: 14PX;
+	font-size: 14px;
 }
 
 
@@ -1152,6 +1153,7 @@ Mailchimp form
  .single-project .project-information ul li span {
  	font-weight: 700;
  	margin-right: 5px;
+ 	text-transform: uppercase;
  }
 
 
