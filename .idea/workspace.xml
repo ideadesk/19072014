@@ -19,11 +19,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="499" column="61" lean-forward="false" selection-start-line="499" selection-start-column="61" selection-end-line="499" selection-end-column="61" />
+            <state relative-caret-position="754">
+              <caret line="450" column="25" lean-forward="false" selection-start-line="450" selection-start-column="25" selection-end-line="450" selection-end-column="25" />
               <folding>
-                <element signature="e#20437#20442#0" expanded="true" />
-                <element signature="e#20791#20796#0" expanded="true" />
+                <element signature="e#18747#18752#0" expanded="true" />
+                <element signature="e#19107#19112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,12 +114,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502895038917</updated>
-      <workItem from="1502895040262" duration="1530000" />
+      <workItem from="1502895040262" duration="1702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1530000" />
+    <option name="totallyTimeSpent" value="1702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1053" extended-state="6" />
@@ -156,11 +156,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="499" column="61" lean-forward="false" selection-start-line="499" selection-start-column="61" selection-end-line="499" selection-end-column="61" />
+        <state relative-caret-position="754">
+          <caret line="450" column="25" lean-forward="false" selection-start-line="450" selection-start-column="25" selection-end-line="450" selection-end-column="25" />
           <folding>
-            <element signature="e#20437#20442#0" expanded="true" />
-            <element signature="e#20791#20796#0" expanded="true" />
+            <element signature="e#18747#18752#0" expanded="true" />
+            <element signature="e#19107#19112#0" expanded="true" />
           </folding>
         </state>
       </provider>
